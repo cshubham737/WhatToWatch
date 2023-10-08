@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What to watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      
+</head>
+<body>
+   <header>
+       <h1 class="h"> What to watch </h1>
+       <form id="form">
+           <input type="text" placeholder="Search" id="search" class="search">
+       </form>
+   </header>
+   <div id="tags">
+   </div>
+   <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <div class="overlay-content" id="overlay-content">
+      
+    </div>
+
+    <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow" >&#8630;</a>
+
+    <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow">&#8631;</a>
+  
+  </div>
+   <main id="main">
+       <div class="movie">
+           <img src="bg.jpeg" alt="bg">
+           <div class="movie-info">
+               <h3> Movie Title </h3>
+               <span class="green">9.8</span>
+           </div>
+           
+           <div class="overview">
+               <h3>Overview</h3>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, quos voluptate ipsum ex consectetur alias ducimus. Facilis minima asperiores omnis?
+           </div>
+       </div>
+
+       <div class="movie">
+        <img src="bg.jpeg" alt="bg">
+        <div class="movie-info">
+            <h3> Movie Title </h3>
+            <span class="green">9.8</span>
+        </div>
+        <div class="overview">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, quos voluptate ipsum ex consectetur alias ducimus. Facilis minima asperiores omnis?
+        </div>
+    </div>
+
+    <div class="movie">
+        <img src="bg.jpeg" alt="bg">
+        <div class="movie-info">
+            <h3> Movie Title </h3>
+            <span class="green">9.8</span>
+        </div>
+        <div class="overview">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, quos voluptate ipsum ex consectetur alias ducimus. Facilis minima asperiores omnis?
+        </div>
+        
+    </div>
+   </main>
+   <div class="pagination">
+       <div class="page " id="prev">Previous Page</div>
+       <div class="current" id="current">1</div>
+       <div class="page" id="next">Next Page</div>
+   </div>
+
+   <a id="back-to-top" href="#" class="btn btn-light btn-lg back_to_top" role="button"><i class="fas fa-chevron-up"></i></a>
+
+
+   <footer class="background">
+    <p class="text-footer">
+      Copyright &copy; 2022 - www.whattowatch.com - All rights reserved
+    </p>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
